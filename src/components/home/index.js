@@ -1,9 +1,15 @@
+import {useState, useEffect, useContext, } from 'react'
+import {MyContext} from '../../App'
+import Table from './postsTable'
 
-function Index() {
+
+function Index(prop) {
+    
+
     return (
-        <h1>
-            This is the home component
-        </h1>
+        <>
+        <Table />
+        </>
     )
 }
 
