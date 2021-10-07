@@ -3,7 +3,7 @@ import {Navbar, NavLink} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
 
-const Index = (props) => {
+const Navmenue = (props) => {
     return (
         <div>
             <Navbar expand="lg" bg="dark" variant="dark">
@@ -16,29 +16,17 @@ const Index = (props) => {
                     <Link to="/about" >About</Link>
                 </NavLink>
                 <NavLink>
-                    <Link to="/about" >About</Link>
+                    <Link to="/contact" >Contact Us</Link>
                 </NavLink>
                 <NavLink>
-                    <Link to="/about" >About</Link>
+                    <Link to="/projects" >Projects</Link>
                 </NavLink>
                 <NavLink>
-                    <Link to="/about" >About</Link>
-                </NavLink>
-                <NavLink>
-                    <Link to="/about" >About</Link>
-                </NavLink>
-                <NavLink>
-                    <Link to="/about" >About</Link>
-                </NavLink>
-                <NavLink>
-                    <Link to="/about" >About</Link>
-                </NavLink>
-                <NavLink>
-                    <Link to="/about" >About</Link>
+                    <Link to="/career" >Career</Link>
                 </NavLink>
             </Navbar>
         </div>
     )
 }
 
-export default Index
+export default Navmenue
